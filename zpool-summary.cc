@@ -175,7 +175,7 @@ namespace snn::app
 
         strbuf command_output(process::command cmd)
         {
-            strbuf buffer{container::reserve, 800};
+            strbuf buffer{init::reserve, 800};
 
             auto output = process::execute_and_consume_output(cmd);
             while (const auto res = output.read_line<cstrview>())

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: BSL-1.0
 
 #include "snn-core/main.hh"
+#include "snn-core/algo/remove_if.hh"
 #include "snn-core/chr/common.hh"
 #include "snn-core/file/standard/out.hh"
 #include "snn-core/fmt/byte_size.hh"
